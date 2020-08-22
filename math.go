@@ -1,12 +1,6 @@
-package main
+package golib
 
-import (
-	"fmt"
-
-	"github.com/getefuxing/mysite/golib"
-)
-
-func main() {
-	fmt.Println(golib.Add(1, 2))
+//return a + b
+func Add(a int, b int) int {
+	return a + b
 }
-
